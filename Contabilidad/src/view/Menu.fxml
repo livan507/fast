@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="357.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <Label layoutX="115.0" layoutY="14.0" text="BICICLETAS IXA">
+      <font>
+         <Font name="System Bold" size="36.0" />
+      </font>
+   </Label>
+   <Button layoutX="27.0" layoutY="67.0" mnemonicParsing="false" onAction="#goIngreEgre" prefHeight="130.0" prefWidth="221.0" text="CONTROL DE INGRESOS Y EGRESOS" />
+   <Button layoutX="27.0" layoutY="207.0" mnemonicParsing="false" onAction="#goCuentasCobrar" prefHeight="130.0" prefWidth="221.0" text="CONTRO DE CUENTAS POR COBRAR" />
+   <Button layoutX="269.0" layoutY="207.0" mnemonicParsing="false" onAction="#goRegistroClientes" prefHeight="130.0" prefWidth="221.0" text="REGISTRO DE CLIENTES" />
+   <Button layoutX="269.0" layoutY="67.0" mnemonicParsing="false" onAction="#goInventoryControl" prefHeight="130.0" prefWidth="221.0" text="CONTROL DE INVENTARIO" />
+</AnchorPane>
